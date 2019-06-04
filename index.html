@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Things To Do</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1 class="header__title">Todo App</h1>
+        <h2 class="header__subtitle">What do you need to do?</h2>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="actions__container">
+        <input
+          class="input"
+          id="search-text"
+          type="text"
+          placeholder="Filter todos"
+        />
+        <label class="checkbox">
+          <input id="hide-completed" type="checkbox" /> Hide Completed
+        </label>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="todos"></div>
+      <form id="todo-form">
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter new todo"
+          name="text"
+        />
+        <button class="button">Submit</button>
+      </form>
+    </div>
+
+    <script src="scripts/uuidv4.js"></script>
+    <script src="scripts/todo-functions.js"></script>
+    <script src="scripts/todo-app.js"></script>
+  </body>
+</html>

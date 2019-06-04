@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ethanrobbins/.nvm/v0.8.10/bin/node',
+1 verbose cli   '/Users/ethanrobbins/.nvm/v0.8.10/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'live-server' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.10
+4 verbose read json /Users/ethanrobbins/.nvm/v0.8.10/lib/package.json
+5 verbose read json /Users/ethanrobbins/.nvm/v0.8.10/lib/package.json
+6 verbose cache add [ 'live-server', null ]
+7 silly cache add name=undefined spec="live-server" args=["live-server",null]
+8 verbose parsed url { pathname: 'live-server',
+8 verbose parsed url   path: 'live-server',
+8 verbose parsed url   href: 'live-server' }
+9 silly lockFile 9528180e-live-server live-server
+10 verbose lock live-server /Users/ethanrobbins/.npm/9528180e-live-server.lock
+11 silly lockFile 9528180e-live-server live-server
+12 verbose addNamed [ 'live-server', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile 180ee697-live-server live-server@
+15 verbose lock live-server@ /Users/ethanrobbins/.npm/180ee697-live-server.lock
+16 silly addNameRange { name: 'live-server', range: '', hasData: false }
+17 verbose url raw live-server
+18 verbose url resolving [ 'https://registry.npmjs.org/', './live-server' ]
+19 verbose url resolved https://registry.npmjs.org/live-server
+20 info trying registry request attempt 1 at 16:24:46
+21 http GET https://registry.npmjs.org/live-server
+22 silly lockFile 180ee697-live-server live-server@
+23 error Error: SSL Error: CERT_UNTRUSTED
+23 error     at ClientRequest.<anonymous> (/Users/ethanrobbins/.nvm/v0.8.10/lib/node_modules/npm/node_modules/request/main.js:525:26)
+23 error     at ClientRequest.g (events.js:193:14)
+23 error     at ClientRequest.EventEmitter.emit (events.js:93:17)
+23 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1461:7)
+23 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+23 error     at CleartextStream.socketOnData [as ondata] (http.js:1366:20)
+23 error     at CleartextStream.CryptoStream._push (tls.js:526:27)
+23 error     at SecurePair.cycle (tls.js:880:20)
+23 error     at EncryptedStream.CryptoStream.write (tls.js:267:13)
+23 error     at Socket.ondata (stream.js:38:26)
+24 error If you need help, you may report this log at:
+24 error     <http://github.com/isaacs/npm/issues>
+24 error or email it to:
+24 error     <npm-@googlegroups.com>
+25 error System Darwin 15.6.0
+26 error command "/Users/ethanrobbins/.nvm/v0.8.10/bin/node" "/Users/ethanrobbins/.nvm/v0.8.10/bin/npm" "install" "-g" "live-server"
+27 error cwd /Users/ethanrobbins/Documents/js-bootcamp/todo-app
+28 error node -v v0.8.10
+29 error npm -v 1.1.62
+30 error code ESSL
+31 verbose exit [ 1, true ]

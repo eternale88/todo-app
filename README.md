@@ -1,10 +1,8 @@
-# todo-app
 
- built with es6 javascript, uses uuid library
 
  Hosted on Netlify [https://upbeat-booth-9a5b90.netlify.com/]
 
-# colorPicker
+# Todo App
 ## Synopsis
 
 My Todo App that  I  built with HTML5, CSS3, and Vanilla JavaScript

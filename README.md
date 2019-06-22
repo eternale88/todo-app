@@ -5,7 +5,7 @@
 # Todo App
 ## Synopsis
 
-My Todo App that  I  built with HTML5, CSS3, and Vanilla JavaScript
+My Todo App that  I  built with HTML5, CSS3, and Vanilla object oriented JavaScript featuring ES6 Classes
 
 ## Motivation
 
